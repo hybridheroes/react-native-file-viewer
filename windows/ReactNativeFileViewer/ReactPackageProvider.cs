@@ -1,4 +1,5 @@
 using Microsoft.ReactNative;
+using Microsoft.ReactNative.Managed;
 
 namespace ReactNativeFileViewer
 {
@@ -6,7 +7,7 @@ namespace ReactNativeFileViewer
     {
         public void CreatePackage(IReactPackageBuilder packageBuilder)
         {
-            CreatePackageImplementation(packageBuilder);
+            packageBuilder.AddReflectionReactPackageProvider<ReactPackageProvider>();
         }
 
         /// <summary>

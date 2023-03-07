@@ -15,6 +15,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ReactNativeFileViewer</RootNamespace>
     <AssemblyName>ReactNativeFileViewer</AssemblyName>
+    <!-- Manual while troubleshooting duplicate attribute error -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute> 
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
